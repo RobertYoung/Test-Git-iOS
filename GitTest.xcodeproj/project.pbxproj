@@ -21,6 +21,7 @@
 		1858658D1902ABE7007AA4CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1858656F1902ABE7007AA4CC /* UIKit.framework */; };
 		185865951902ABE7007AA4CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 185865931902ABE7007AA4CC /* InfoPlist.strings */; };
 		185865971902ABE7007AA4CC /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185865961902ABE7007AA4CC /* GitTestTests.m */; };
+		185865A21902AF2E007AA4CC /* RYTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 185865A11902AF2E007AA4CC /* RYTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		185865921902ABE7007AA4CC /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		185865941902ABE7007AA4CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		185865961902ABE7007AA4CC /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		185865A01902AF2E007AA4CC /* RYTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RYTest.h; path = ../RYTest.h; sourceTree = "<group>"; };
+		185865A11902AF2E007AA4CC /* RYTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RYTest.m; path = ../RYTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		185865711902ABE7007AA4CC /* GitTest */ = {
 			isa = PBXGroup;
 			children = (
+				185865A01902AF2E007AA4CC /* RYTest.h */,
+				185865A11902AF2E007AA4CC /* RYTest.m */,
 				1858657A1902ABE7007AA4CC /* RYAppDelegate.h */,
 				1858657B1902ABE7007AA4CC /* RYAppDelegate.m */,
 				1858657D1902ABE7007AA4CC /* Main.storyboard */,
@@ -252,6 +257,7 @@
 			files = (
 				185865781902ABE7007AA4CC /* main.m in Sources */,
 				185865821902ABE7007AA4CC /* RYViewController.m in Sources */,
+				185865A21902AF2E007AA4CC /* RYTest.m in Sources */,
 				1858657C1902ABE7007AA4CC /* RYAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
